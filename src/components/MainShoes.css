@@ -1,0 +1,79 @@
+body{
+    text-decoration: none;
+}
+.line{
+  width: 30%;  
+    /* border: 2px red solid; */
+}
+h1{
+    text-align: center;
+    
+}
+.card{
+    width: 600px;
+    height: 600px;
+    border: black 5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px red solid; */
+    background-color: darkgray;
+    margin: 100px;
+}
+.inputsAndButton{
+    max-width: 1500px;
+    margin: 0 auto; 
+	float: none ; 
+
+}
+
+.inputs{
+    margin-left: 450px;
+    margin-top: 100px;
+    display: flex;
+    
+}
+.inputName{
+   margin-right: 20px;
+   width: 180px;
+   height: 50px;
+   background-color: black;
+   color:white;
+}
+.inputPrice{
+    margin-right: 20px;
+    background-color: black;
+    color:white;
+}
+.inputImage{
+    margin-right: 20px;
+    background-color: black;
+    color:white
+}
+.btnAdd{
+    background-color: red;
+}
+.btnDel{
+    font-size: 30px;
+    margin-top: 30px;
+    background-color:palegoldenrod;
+    text-decoration:none;
+    
+}
+.btnEd{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 200px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}

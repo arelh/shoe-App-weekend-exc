@@ -1,0 +1,17 @@
+.cardShoe{
+    margin-left: 150px;
+    width: 700px;
+    height: 700px;
+    border: black solid 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; 
+	float: none ; 
+    justify-content: space-around;
+}
+.imageShoe{
+    /* border: red solid 5px; */
+    margin: 0 auto;
+    width: 400px;
+}
