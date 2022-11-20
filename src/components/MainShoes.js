@@ -47,6 +47,7 @@ function MainShoes({ setIsLoading }) {
         image: imageVal,
       }
     );
+    console.log({ data });
   };
 
   // Delete
