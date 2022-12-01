@@ -16,10 +16,7 @@ function App() {
       {isLoading && <h2 className="spinner">loading....</h2>}
       <Routes>
         <Route path="/" element={<main />} />
-        <Route
-          path="/shoes"
-          element={<MainShoes setIsLoading={setIsLoading} />}
-        />
+        <Route path="/shoes" element={<MainShoes setIsLoading={setIsLoading} />} />
         <Route
           path="/shoes/:id"
           element={<Shoes setIsLoading={setIsLoading} />}
@@ -27,6 +24,7 @@ function App() {
 
         <Route path="/*" element={<h1>404</h1>} />
       </Routes>
+      
     </div>
   );
 }

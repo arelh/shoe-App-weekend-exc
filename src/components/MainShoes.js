@@ -4,7 +4,6 @@ import axios from "axios";
 import "./MainShoes.css";
 
 function MainShoes({ setIsLoading }) {
-  const [shoeArr, setShoeArr] = useState([]);
   const [shoes, setShoes] = useState([]);
   const [nameVal, setNameVal] = useState("");
   const [priceVal, setPriceVal] = useState("");
@@ -60,7 +59,7 @@ function MainShoes({ setIsLoading }) {
       console.log(shoeArr);
 
       console.log(id);
-      setShoeArr((prevState) =>
+      setShoes((prevState) =>
         prevState.filter((shoe) => {
           return shoe.id !== data.id;
         })

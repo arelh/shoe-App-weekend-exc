@@ -69,6 +69,7 @@ h1{
 .cards{
     display: flex;
     flex-wrap: wrap;
+    
 }
 img{
     width: 200px;
