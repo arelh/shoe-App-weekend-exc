@@ -56,9 +56,9 @@ function MainShoes({ setIsLoading }) {
         `https://6374c35a08104a9c5f8866ff.mockapi.io/shoes/${id}`
       );
       console.log(data);
-      console.log(shoeArr);
+      // console.log(shoeArr);
 
-      console.log(id);
+      // console.log(id);
       setShoes((prevState) =>
         prevState.filter((shoe) => {
           return shoe.id !== data.id;
@@ -110,7 +110,7 @@ function MainShoes({ setIsLoading }) {
       <div className="inputsAndButton">
         <h1>shoes-collection</h1>
 
-        {shoeArr.map((t, i) => (
+        {shoes.map((t, i) => (
           <div className="card" key={t.value + i}>
             {t.value}
           </div>
